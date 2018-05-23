@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         Layout 2.1
-// @namespace    http://wappler.co/marcel/test
-// @version      0.1
+// @version      1.0
 // @description  Layout für Leitstellenspiel.de
 // @author       Battlebozz
 // @include      *://www.leitstellenspiel.de/
