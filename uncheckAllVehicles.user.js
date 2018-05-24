@@ -16,7 +16,7 @@
     console.log('uncheckAllVehicles successfully loaded!');
 
     function uncheckAll() {
-        $('#vehicle_show_table_body_all input:checkbox').removeAttr('checked');
+        $('.vehicle_select_table_tr input:checkbox').removeAttr('checked');
         $('#vehicle_amount').replaceWith('<span id="vehicle_amount" class="badge vehicle_amount_selected">0</span>');
 
         if ($('.aaoZaehler').length) {
