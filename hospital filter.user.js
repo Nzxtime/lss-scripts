@@ -17,6 +17,8 @@
             } else {
                 el.show();
             }
+            
+            if(arrow === "↓") el.show();
         });
     }
 
@@ -25,4 +27,4 @@
         filter();
     }
 
-})();
+})(jQuery);
