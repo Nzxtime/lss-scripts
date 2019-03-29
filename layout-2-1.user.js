@@ -32,7 +32,7 @@
 
 	$('#buildings_outer, #missions_outer, #chat_outer, #radio_outer').removeClass('col-sm-4').addClass('col-sm-3');
 	$('#map_outer').removeClass('col-sm-8').addClass('col-sm-12');
-	$('#missions_outer').insertAfter('#buildings_outer');
+	$('#missions_outer').insertAfter('#chat_outer');
 	$('#map_outer').insertAfter('#radio_outer');
 	map.invalidateSize(true);
 
