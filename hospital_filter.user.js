@@ -1,3 +1,17 @@
+// ==UserScript==
+// @name         hospital filter
+// @version      1.0
+// @description  
+// @author       Nzxtime
+// @include      *://www.leitstellenspiel.de/
+// @include      *://www.leitstellenspiel.de/*
+// @include      *://www.missionchief.com/*
+// @include      *://www.missionchief.com/
+// @include      *://www.meldkamerspel.com/*
+// @include      *://www.meldkamerspel.com/
+// @grant        none
+// ==/UserScript==
+
 (function ($) {
     'use strict';
     function filter() {
